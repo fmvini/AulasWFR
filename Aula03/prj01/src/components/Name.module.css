@@ -1,0 +1,7 @@
+.formato{
+        background-color: #000000;
+        display: grid;
+        min-height: 50vh;
+        place-content: center;
+        text-align: center
+}
