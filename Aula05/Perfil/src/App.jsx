@@ -1,12 +1,12 @@
-import './App.css'
+import styles from './components/Profile/styles.module.css'
 import Profile from './components/Profile'
 
 function App() {
 
   return (
     <>
-        <div className="container">
-            <div className="card">
+        <div className={styles.container}>
+            <div className={styles.card}>
                 <Profile />
             </div>
         </div>
