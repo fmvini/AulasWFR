@@ -1,0 +1,7 @@
+:root{
+    --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+body{
+    font: 18px/145% var(--sans);
+    color: aliceblue;
+}

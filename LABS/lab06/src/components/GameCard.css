@@ -1,0 +1,38 @@
+.capaimagem{
+    width: 250px;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 15px;
+    border:2px solid;
+    border-color:rgb(95, 255, 116);
+    box-shadow: 0 0 10px rgb(95, 255, 116);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.capaimagem:hover {
+    transform: scale(1.05);
+}
+.saiba{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    padding: 10px;
+    border: 0;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top:auto;
+    transition: transform 0.3s ease;
+}
+.saiba:hover{
+    transform: scale(1.05);
+}
+.saiba:active{
+    transform: scale(0.95);
+}
+
+.game-card{
+    display: flex;
+    flex-direction: column;
+    height:100%
+}
+.game-card button{
+    margin-top: auto;
+}
